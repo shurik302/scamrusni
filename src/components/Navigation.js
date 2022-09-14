@@ -8,7 +8,7 @@ function Navigation() {
     return (
         <div className="Navigation">
             <a href="#" className="Logo">
-                <img src={minilogo} />r
+                <img src={minilogo} />
             </a>
             <div className="Dmenu">
                 <ol className="Menu">
@@ -16,7 +16,7 @@ function Navigation() {
                         <a className="menuolU">
                             Услуги<i class="fa-solid fa-caret-down"></i>
                         </a>
-                        <ol className="menuolV">t
+                        <ol className="menuolV">
                             <li>
                                 <a>test</a>
                             </li>
