@@ -1,0 +1,215 @@
+.Navigation {
+    width: 100%;
+    padding: 20px 30px 0px 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+.fa-caret-down {
+    margin-left: 5px;
+    transition: 0.25s;
+}
+.menuol:hover a > .fa-caret-down {
+    transition: 0.25s;
+    transform: rotate(180deg);
+    color: #eac00b;
+}
+.Logo {
+    width: 252px;
+    height: 110px;
+}
+.Logo img {
+    width: 100%;
+    height: 100%;
+}
+.Dmenu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Menu {
+    margin-left: 30px;
+    color: #dadada;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.menuol {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* 
+    align-items: center; */
+}
+
+.rightP {
+    position: absolute;
+    right: 150px;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    align-items: center;
+}
+
+.PopolnB {
+    width: 170px;
+    height: 50px;
+    align-items: center;
+    background-color: #eac00b;
+    color: #0b0b0b;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.Loginout {
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+    color: #efefef;
+}
+.menuolV {
+    position: absolute;
+    margin-top: 135px;
+    background-color: #202020;
+    width: 150px;
+}
+.menuolV li {
+    display: none;
+    transition: 0.25s;
+    border: 1px solid rgb(25, 25, 25);
+    padding: 5px 0px 5px 15px;
+    cursor: pointer;
+}
+.menuolV li:hover {
+    background-color: #ffd518;
+    transition: 0.25s;
+    color: #202020;
+}
+.menuolU,
+.menuolP,
+.menuolPo,
+.menuolPod {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.menuol:hover > .menuolV li {
+    display: flex !important;
+    box-shadow: 0px 0px 10px 2px #202020;
+}
+
+.MenuBobile,
+.Loginout i,
+.ThisMobileMenu,
+.fa-bars {
+    display: none;
+}
+
+@media (max-width: 1440px) {
+    .rightP {
+        right: 50px;
+    }
+    .rightP {
+        gap: 20px;
+    }
+    .Loginout {
+        gap: 20px;
+        font-size: 14px;
+    }
+    .Menu {
+        font-size: 14px;
+    }
+    .Logo {
+        width: 200px;
+        height: 85px;
+    }
+    .menuolV {
+        margin-top: 110px;
+    }
+    .PopolnB {
+        width: 120px;
+        height: 36px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .Navigation {
+        padding: 20px 15px 0px 15px;
+    }
+
+    .Menu {
+        gap: 10px;
+        margin: 14px 0 14px 5px;
+    }
+    .Logo {
+        width: 130px;
+        height: 65px;
+    }
+    .rightP {
+        right: 10px;
+        gap: 20px;
+    }
+    .PopolnB {
+        width: 110px;
+        font-size: 12px;
+    }
+    .Loginout a {
+        display: none;
+    }
+    .Loginout i {
+        display: block;
+    }
+}
+@media (max-width: 768px) {
+    .fa-bars {
+        display: block;
+        color: #dadada;
+        font-size: 14px;
+    }
+    .Menu {
+        display: none;
+    }
+    .rightP {
+        right: 40px;
+    }
+    .Navigation {
+        padding: 20px 15px 0px 40px;
+    }
+    .ThisMobileMenu {
+        display: block;
+        height: calc(100vh - 85px);
+        width: 100%;
+        position: absolute;
+        top: 85px;
+        transition: 0.375s;
+        right: 100%;
+        background-color: #353535;
+    }
+    .active {
+        right: 0px;
+        transition: 0.375s;
+    }
+}
+
+@media (max-width: 425px) {
+    .Navigation {
+        padding: 20px 10px 0px 10px;
+    }
+}
+@media (max-width: 375px) {
+    .PopolnB {
+        width: 90px;
+        font-size: 10px;
+    }
+    .rightP {
+        right: 10px;
+    }
+}

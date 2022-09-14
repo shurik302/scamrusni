@@ -1,0 +1,92 @@
+.footer {
+    padding: 0px 30px 0 30px;
+    color: #dadada;
+    font-size: 20px;
+}
+.upFot {
+}
+.hrFot {
+}
+.downFot {
+    display: flex;
+    justify-content: space-between;
+}
+.socnetfot {
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.MenuF {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.MenuF div {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menuolVN {
+    margin-top: 20px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.menuolFot {
+    color: #fad94a;
+}
+
+.menuolVN li a {
+    transition: 0.25s;
+    cursor: pointer;
+    text-decoration: none;
+    background: no-repeat 0 100%;
+    background-image: linear-gradient(#e8aa31, #e8aa31);
+    transition: background-size 0.3s ease;
+    background-size: 0% 2px;
+}
+
+.menuolVN li a:hover,
+.menuolVN li a:focus {
+    background-size: 100% 2px;
+}
+
+@media (max-width: 1024px) {
+    .MenuF {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .MenuF div {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .MenuF div li {
+        width: 141px;
+    }
+}
+
+@media (max-width: 425px) {
+    .MenuF div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+    .MenuF div li {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+    }
+}
