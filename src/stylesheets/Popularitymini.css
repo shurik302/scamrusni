@@ -1,0 +1,40 @@
+.Popularitymini {
+    width: 600px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    background-color: #1e1e1e;
+    border-radius: 3px;
+    align-items: center;
+}
+
+.BlockImage {
+    height: 100px !important;
+    width: 150px !important;
+    overflow: hidden;
+}
+.BlockImage img {
+    width: 100%;
+    height: 100%;
+    transition: 0.25s;
+    border-radius: 3px;
+    object-fit: cover;
+}
+
+.BlockText {
+    width: 450px;
+    margin-left: 5px;
+    transition: 0.25s;
+    color: white;
+    font-size: 20px;
+}
+.Popularitymini:hover .BlockImage > img {
+    transform: scale(1.2);
+    transition: 0.25s;
+    overflow: hidden;
+}
+.Popularitymini:hover > .BlockText {
+    font-size: 24px;
+    transition: 0.25s;
+    color: #fad94a;
+}

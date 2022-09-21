@@ -5,6 +5,7 @@
     flex-direction: row;
     align-items: center;
     text-align: center;
+    z-index: 1000000;
 }
 .fa-caret-down {
     margin-left: 5px;

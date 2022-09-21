@@ -1,0 +1,57 @@
+.Home {
+    padding: 20px 30px 0px 30px;
+    color: #dadada;
+    font-size: 20px;
+}
+.HomeCataloge {
+    width: 205px;
+    padding: 10px;
+    background-color: #1d1d1d;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.HomeCataloge li {
+    cursor: pointer;
+    transition: 0.2s;
+}
+.HomeCataloge li:hover {
+    color: #fad94a;
+    transition: 0.2s;
+}
+.SliderMain {
+    margin-left: 40px;
+    width: 1000px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.UpHome {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Popularity {
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+@media (max-width: 1440px) {
+    .Home {
+        padding: 20px 30px 0px 30px;
+    }
+}
+@media (max-width: 1024px) {
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 425px) {
+}
+@media (max-width: 375px) {
+}
+@media (max-width: 320px) {
+}

@@ -1,12 +1,12 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-/* import AboutUs from "./pages/AboutUs";
-import Blog from "./pages/Blog";
-import Buy from "./pages/Buy";
-import Contacts from "./pages/Contacts"; */
 import Home from "./pages/Home";
 import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
+import Refill from "./pages/Refill";
+import Contactus from "./pages/Contactus";
+import AtomicHeart from "./pages/Games/AtomicHeart";
+import Callofdutymw2 from "./pages/Games/Callofdutymw2";
 import "./index.css";
 
 function App() {
@@ -15,11 +15,14 @@ function App() {
             <Navigation />
             <Routes>
                 <Route path="/" exact element={<Home />} />
-                {/* <Route path="/AboutUs" exact element={<AboutUs />} />
-                <Route path="/contacts" exact element={<Contacts />} />
-                <Route path="/Buy" exact element={<Buy />} />
-                <Route path="/Blog" exact element={<Blog />} />
-                <Route path="/AboutUs" exact element={<AboutUs />} /> */}
+                <Route path="/Refill" exact element={<Refill />} />
+                <Route path="/Contactus" exact element={<Contactus />} />
+                <Route path="/AtomicHeart" exact element={<AtomicHeart />} />
+                <Route
+                    path="/Callofdutymw2"
+                    exact
+                    element={<Callofdutymw2 />}
+                />
             </Routes>
             <Footer />
         </Router>

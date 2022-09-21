@@ -1,0 +1,52 @@
+1 Внести в файл структуру и заполнить её
+
+
+import React from "react";
+import GamesProto from "../../components/GamesProto";
+
+
+function /* Внести название файла */() {
+    return (
+        <div>
+            <GamesProto
+                numberSlideFromMassive=""
+                Name=""
+                Price=""
+                DateGame=""
+                TextInfoGame=""
+                ImageGameProtO={}
+                ImageGameProtS={}
+                ImageGameProtT={}
+                ImageGameProtF={f}
+                ImageGameProtFif={}
+                TextGameProtO=""
+                TextGameProtS=""
+                TextGameProtT=""
+                TextGameProtF=""
+                TextGameProtFif=""
+                ProcM=""
+                OsM=""
+                ProcRazvernM=""
+                OzuM=""
+                VideoM=""
+                DirectXM=""
+                DiskM=""
+                ProcR=""
+                OsR=""
+                ProcRazvernR=""
+                OzuR=""
+                VideoR=""
+                DirectXR=""
+                DiskR=""
+            />
+        </div>
+    );
+}
+
+export default /* Внести название файла */;
+
+2 В файле Collection Внести картинки в новый элемент массива
+
+3 в App.js внести файл в линк
+
+4 Добавить линки на сайт

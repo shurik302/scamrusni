@@ -12,15 +12,22 @@ html {
     padding-inline-start: 0px;
     max-width: 100%;
     overflow-x: hidden;
-    overflow-y: hidden;
     font-weight: 900;
     font-family: "Work Sans";
     font-style: normal;
     background-color: #353535;
     width: 100%;
-    overflow: hidden;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+    width: 8px;
+    background-color: #eeeeee;
+    border-radius: 5px;
+    right: 10px;
+}
 p {
     margin: 0;
     padding: 0;
@@ -30,7 +37,6 @@ html {
     width: 100%;
     max-width: 100%;
     overflow-x: hidden;
-    overflow-y: hidden;
 }
 
 ol,

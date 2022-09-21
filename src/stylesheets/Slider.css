@@ -1,0 +1,63 @@
+.SliderMini {
+    width: 500px;
+    position: relative;
+}
+
+.Games {
+    color: white;
+    position: relative;
+    height: 430px;
+}
+.bc {
+    background-color: black;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.Games img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.25s;
+}
+.slick-slider {
+    flex-direction: row;
+}
+.Games span {
+    position: absolute;
+    top: 20%;
+    left: 50px;
+    font-size: 40px;
+    opacity: 1;
+    z-index: 9999;
+    transition: 0.25s;
+}
+.slick-track {
+    display: flex;
+    flex-direction: row;
+}
+
+.Games:hover .bc > img {
+    transform: scale(1.2);
+    transition: 0.25s;
+}
+.Games:hover > span {
+    color: #fad94a;
+    transition: 0.25s;
+    font-size: 60px;
+}
+.SliderProt {
+    width: 1250px !important;
+    height: 537px;
+    overflow: hidden;
+}
+.GamesSldie {
+    width: 1250px !important;
+    height: 537px;
+}
+.GamesSldie img {
+    width: 100%;
+    height: 100%;
+}

@@ -3,13 +3,14 @@ import minilogo from "../images/minilogo.png";
 import "../stylesheets/Navigation.css";
 import MobileMenu from "./MobileMenu";
 import MobileMenuOnc from "../tech/Function";
+import { Link } from "react-router-dom";
 
 function Navigation() {
     return (
         <div className="Navigation">
-            <a href="#" className="Logo">
+            <Link to="/" className="Logo">
                 <img src={minilogo} />
-            </a>
+            </Link>
             <div className="Dmenu">
                 <ol className="Menu">
                     <li className="menuol">
